@@ -1,0 +1,25 @@
+In this case we train 
+    our model using
+        various medical parameters
+            such as
+                the blood insulin level,
+                    blood glucose level, BMI etc.
+
+Once data is fed to
+            the Support vector Machine model
+                it plots the data on a graph
+                    & once plotted it 
+                        finds a hyper-plane (i.e seperates data into 2 extremes)
+
+When new data is fed to this SVM model
+            it classifies it into either one of the extremetis
+                and with that
+                    it can predict whether a person 
+                        is diabetic or non-diabetic
+                
+WorkFlow : 1) Import Diabetes Data : diabetes.csv
+           2) Data Pre Processing : Standardizing all the data to a single range.
+           3) Train-Test Split : 0.8(Train) : 0.2(Test)
+           4) Feeding data to SVM Classifier
+           5) Obtain Trained SVM Classifier : new data 
+                                              check prediction
